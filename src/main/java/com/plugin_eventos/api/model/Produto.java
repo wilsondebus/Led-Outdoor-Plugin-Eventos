@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
-@Entity //falar que essa é uma classe que pertence ao banco de dados
+@Entity //fala que essa é uma classe que pertence ao banco de dados
 @Table(name="Produtos") //fala de quual tabela pertence
 @Data //gera autimaticamente os metodos toString
 @NoArgsConstructor //cria um construtor vazio
