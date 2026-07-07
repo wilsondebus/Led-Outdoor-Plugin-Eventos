@@ -28,5 +28,5 @@ public class Produto {
     @Column (name = "data_entrada")
     private LocalDate dataEntrada; //define que os valores de data_entrada vão para dataEntrada
 
-    private String observcao; //pode ser vazio ou nulo
+    private String observacao; //pode ser vazio ou nulo
 }
